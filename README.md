@@ -211,3 +211,61 @@ Examples of measures used in the dashboard:
 ```DAX
 Total Customers =
 DISTINCTCOUNT(customer[customer_id])
+
+
+TOTAL USERS =
+DISTINCTCOUNT(netflix_customer_ratings_20000[customer_id])
+
+TOTAL WATCHING =
+SUM(netflix_customer_ratings_20000[watch_time_minutes])
+
+Added =
+IF(
+    'netflix_dataset_20000 csv'[date_added] >= EDATE(TODAY(), -24),
+    "Recently Added",
+    "Older"
+)
+
+
+TOTAL TITLE =
+COUNT('netflix_dataset_20000 csv'[title])
+
+
+age group =
+IF(
+    netflix_customer_ratings_20000[age] <= 18,
+    "13-18",
+    IF(
+        netflix_customer_ratings_20000[age] <= 30,
+        "19-30",
+        IF(
+            netflix_customer_ratings_20000[age] <= 45,
+            "31-45",
+            IF(
+                netflix_customer_ratings_20000[age] <= 60,
+                "46 - 60",
+                "60+"
+            )
+        )
+    )
+)
+
+Column =
+IF(
+    netflix_customer_ratings_20000[watch_time_minutes] > [avg watch time],
+    "Heavy watcher",
+    "normal watcher"
+)
+
+
+
+
+| DAX Function      | Purpose                                                                    |
+| ----------------- | -------------------------------------------------------------------------- |
+| `SUM()`           | Calculates total values such as shows watched and watch time               |
+| `DISTINCTCOUNT()` | Counts unique customers                                                    |
+| `COUNT()`         | Counts the number of titles                                                |
+| `IF()`            | Creates conditions and classifications                                     |
+| `EDATE()`         | Calculates a date a specific number of months before or after another date |
+| `TODAY()`         | Returns the current date                                                   |
+
