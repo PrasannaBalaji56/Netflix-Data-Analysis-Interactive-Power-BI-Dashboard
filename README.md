@@ -1,7 +1,3 @@
-<img width="1283" height="719" alt="Screenshot 2026-09-08 004514" src="https://github.com/user-attachments/assets/17e0f23e-b190-4377-8887-f7ae609b2cf5" />
-<img width="1279" height="717" alt="Screenshot 2026-09-08 004531" src="https://github.com/user-attachments/assets/0550495f-b190-4d41-9a9d-d17fe3ba75e7" />
-<img width="1275" height="722" alt="Screenshot 2026-09-08 004546" src="https://github.com/user-attachments/assets/7fa6cdb4-2177-46b8-a247-8383016b8721" />
-<img width="1280" height="720" alt="Screenshot 2026-09-08 004504" src="https://github.com/user-attachments/assets/e938c62e-137a-4332-9ba2-8b076ee63a0c" />
 # 🎬 Netflix Data Analysis & Power BI Dashboard
 
 ## 📌 Project Overview
@@ -273,3 +269,9 @@ IF(
 | `EDATE()`         | Calculates a date a specific number of months before or after another date |
 | `TODAY()`         | Returns the current date                                                   |
 
+
+
+<img width="1283" height="719" alt="Screenshot 2026-09-08 004514" src="https://github.com/user-attachments/assets/17e0f23e-b190-4377-8887-f7ae609b2cf5" />
+<img width="1279" height="717" alt="Screenshot 2026-09-08 004531" src="https://github.com/user-attachments/assets/0550495f-b190-4d41-9a9d-d17fe3ba75e7" />
+<img width="1275" height="722" alt="Screenshot 2026-09-08 004546" src="https://github.com/user-attachments/assets/7fa6cdb4-2177-46b8-a247-8383016b8721" />
+<img width="1280" height="720" alt="Screenshot 2026-09-08 004504" src="https://github.com/user-attachments/assets/e938c62e-137a-4332-9ba2-8b076ee63a0c" />
