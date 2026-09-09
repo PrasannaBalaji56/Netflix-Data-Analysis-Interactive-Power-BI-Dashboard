@@ -269,6 +269,7 @@ IF(
 | `EDATE()`         | Calculates a date a specific number of months before or after another date |
 | `TODAY()`         | Returns the current date                                                   |
 
+```
 ---
 
 ## 📸 Dashboard Screenshots
